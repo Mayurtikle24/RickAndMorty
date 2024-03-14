@@ -8,12 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var characterviewModel = CharacterViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            List(characterviewModel.characterList ?? [],id: \.id){ character in
+                
+                HStack {
+                    AsyncImage(url: URL(string: character.image ?? "" )){ image in
+                        
+                        image.image?.resizable().aspectRatio(contentMode: .fit).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                            
+                        
+                    }
+                    Text(character.name ?? "").font(.footnote).foregroundColor(.black)
+                }
+                
+            }
+        }
+        .task {
+          await  characterviewModel.getCharacter()
         }
         .padding()
     }
