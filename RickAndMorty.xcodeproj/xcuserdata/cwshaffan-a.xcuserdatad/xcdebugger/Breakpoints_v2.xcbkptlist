@@ -18,6 +18,38 @@
             endingLineNumber = "27"
             landmarkName = "getCharacter()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "269DBDE2-F130-4C1C-83F2-107E8D53EAEB - f5604ee5925c118c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static RickAndMorty.ApiServices.getCharacter() async throws -&gt; Swift.Array&lt;RickAndMorty.Character&gt;"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwshaffan-a/Documents/swift/RickAndMorty/RickAndMorty/Servies/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "222">
+               </Location>
+               <Location
+                  uuid = "269DBDE2-F130-4C1C-83F2-107E8D53EAEB - 13866900f053becc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static RickAndMorty.ApiServices.getCharacter() async throws -&gt; RickAndMorty.RickAndMortyListModel"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwshaffan-a/Documents/swift/RickAndMorty/RickAndMorty/Servies/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "273">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -34,6 +66,38 @@
             endingLineNumber = "33"
             landmarkName = "getCharacter()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C68C8A8F-925D-4A8B-9641-5826D58B5C5C - f5604ee5925c114a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static RickAndMorty.ApiServices.getCharacter() async throws -&gt; Swift.Array&lt;RickAndMorty.Character&gt;"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwshaffan-a/Documents/swift/RickAndMorty/RickAndMorty/Servies/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "475">
+               </Location>
+               <Location
+                  uuid = "C68C8A8F-925D-4A8B-9641-5826D58B5C5C - 13866900f053be0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static RickAndMorty.ApiServices.getCharacter() async throws -&gt; RickAndMorty.RickAndMortyListModel"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwshaffan-a/Documents/swift/RickAndMorty/RickAndMorty/Servies/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "607">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -82,6 +146,86 @@
                   offsetFromSymbolStart = "70">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CEC98DB-4846-4C91-8012-949426C94878"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/Servies/ApiServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getCharacter()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CEC98DB-4846-4C91-8012-949426C94878 - 26bfb46865635697"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static RickAndMorty.ApiServices.getCharacter() async throws -&gt; Swift.Array&lt;RickAndMorty.Character&gt;"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwshaffan-a/Documents/swift/RickAndMorty/RickAndMorty/Servies/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "3CEC98DB-4846-4C91-8012-949426C94878 - a9c5143889f2fdd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static RickAndMorty.ApiServices.getCharacter() async throws -&gt; RickAndMorty.RickAndMortyListModel"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwshaffan-a/Documents/swift/RickAndMorty/RickAndMorty/Servies/ApiServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "169">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33A83E53-8924-4EB0-9FDE-985DB628155D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/ViewModels/CharacterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getCharacter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA2B3014-A49F-413A-AF10-EB17EBF6058C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/View/CharacterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

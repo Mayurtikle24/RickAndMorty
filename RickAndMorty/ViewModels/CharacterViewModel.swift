@@ -8,6 +8,7 @@
 import Foundation
 
 final class CharacterViewModel :ObservableObject{
+   
     
     
     @Published var characterList : [Character]?
@@ -15,7 +16,10 @@ final class CharacterViewModel :ObservableObject{
     func getCharacter()async{
         do{
             let character = try await ApiServices.getCharacter();
-            characterList = character
+            DispatchQueue.main.async {
+                self.characterList = character.results
+            }
+            
         }catch(let error){
          print(error)
         }

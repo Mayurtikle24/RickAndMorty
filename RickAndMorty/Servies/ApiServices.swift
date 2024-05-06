@@ -10,7 +10,7 @@ import Foundation
 
 final class ApiServices{
     
-    static func getCharacter () async throws -> [Character]{
+    static func getCharacter () async throws -> RickAndMortyListModel{
         
         
         //Character Url
@@ -31,7 +31,7 @@ final class ApiServices{
         
         do{
             let decoder = JSONDecoder();
-            return try decoder.decode([Character].self,from: data)
+            return try decoder.decode(RickAndMortyListModel.self,from: data)
         }catch{
             throw Error.invalidData
         }
